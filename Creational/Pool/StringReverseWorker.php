@@ -2,6 +2,9 @@
 
 namespace DesignPatterns\Creational\Pool;
 
+/**
+ * Worker 类，将一个字符串反转
+ */
 class StringReverseWorker
 {
     /**
