@@ -8,6 +8,7 @@ namespace DesignPatterns\Creational\AbstractFactory;
  * 抽象工厂是创建一些组件的合约。
  *
  * 使用场景：web 的响应可以是 Html 或者 Json 类型的文本，实例化不同的工厂就可以生产不同类型的响应。
+ * 每种工厂只生产一种产品。
  */
 abstract class AbstractFactory
 {
