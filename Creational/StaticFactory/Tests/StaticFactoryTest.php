@@ -4,6 +4,9 @@ namespace DesignPatterns\Creational\StaticFactory\Tests;
 
 use DesignPatterns\Creational\StaticFactory\StaticFactory;
 
+/**
+ * 静态工厂直接调用静态方法生产对象。
+ */
 class StaticFactoryTest extends \PHPUnit_Framework_TestCase
 {
     public function testCanCreateNumberFormatter()
