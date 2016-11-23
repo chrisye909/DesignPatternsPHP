@@ -6,6 +6,9 @@ namespace DesignPatterns\Structural\Adapter;
  * This is the adapter here. Notice it implements BookInterface,
  * therefore you don't have to change the code of the client which is using a Book
  */
+/**
+ * 电子书适配器，电子书适配成纸质书一样的行为，从面向对象的角度看就是实现纸质书的接口
+ */
 class EBookAdapter implements BookInterface
 {
     /**
