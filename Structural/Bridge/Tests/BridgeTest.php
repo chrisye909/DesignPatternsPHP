@@ -10,7 +10,9 @@ class BridgeTest extends \PHPUnit_Framework_TestCase
 {
     public function testCanPrintUsingThePlainTextPrinter()
     {
+        // 真正提供服务的类不一样
         $service = new HelloWorldService(new PlainTextFormatter());
+        // 调用服务的方式是一样的 $service->get()
         $this->assertEquals('Hello World', $service->get());
 
         // now change the implemenation and use the HtmlFormatter instead

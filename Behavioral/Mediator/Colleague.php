@@ -16,6 +16,7 @@ abstract class Colleague
     protected $mediator;
 
     /**
+     * 关键方法
      * @param MediatorInterface $mediator
      */
     public function setMediator(MediatorInterface $mediator)

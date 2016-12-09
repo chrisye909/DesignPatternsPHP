@@ -31,6 +31,7 @@ class Receiver
 
     public function getOutput(): string
     {
+        // alias of implode
         return join("\n", $this->output);
     }
 

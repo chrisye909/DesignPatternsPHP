@@ -36,6 +36,7 @@ class Form implements RenderableInterface
 
     /**
      * @param RenderableInterface $element
+     * 用于组合的类函数，被组合的元素也必须实现该类继承的接口
      */
     public function addElement(RenderableInterface $element)
     {

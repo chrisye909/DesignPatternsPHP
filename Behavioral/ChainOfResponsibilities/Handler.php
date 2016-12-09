@@ -29,8 +29,10 @@ abstract class Handler
     {
         $processed = $this->processing($request);
 
+        // 本节点没处理
         if ($processed === null) {
             // the request has not been processed by this handler => see the next
+            // 传递给下一个节点处理
             if ($this->successor !== null) {
                 $processed = $this->successor->handle($request);
             }
